@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ecommerce-frontend/',
+  base: '/gitpage/', // 👈 MUST match your repo name
 })
